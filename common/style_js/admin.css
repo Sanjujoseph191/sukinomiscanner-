@@ -1,0 +1,142 @@
+/***************************************************************************/
+/*     PROGRAMMER     :  SDYA                                              */
+/*     SCRIPT NAME    :  admin.css                                         */
+/*     CREATED ON     :  08/MAY/2006                                       */
+/*     LAST MODIFIED  :  12/MAY/2006                                       */
+/*                                                                         */
+/*     Styles For the Admin Panel                                          */
+/***************************************************************************/
+body{
+	color:#000000;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	margin:0px;
+	padding:0px 0px 10px;
+	background-attachment: fixed;
+	background-color: #f5f3ee;
+	background-image: url(../../images/bg.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+
+form{margin:0px;padding:0px;}
+.w100per{width:100%;}
+.w350{width:350px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size: 10px;color:#000000;}
+.w450{width:450px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size: 10px;color:#000000;}
+.w550{width:550px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size: 10px;color:#000000; border:#cccccc thin solid;}
+.w600{width:600px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size: 10px;color:#000000;}
+.w650{width:650px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size: 10px;color:#000000;}
+.w750{width:750px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size: 10px;color:#000000;}
+.w778{width:778px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size: 10px;color:#000000;}
+.w760{
+	width:760px;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size: 10px;
+	color:#000000;
+	background-color: #F0F0F0;
+}
+.w50per{width:50%;}
+.w150px{width:150px;}
+.tablerows{height:30px;}
+.blueBorder{border:1px solid #e2e2e2;}
+.innerBorder{border:0px solid #e2e2e2;padding:10px;}
+.innertable {width:100%;}
+.blue{
+	color:#FFFFFF;
+	font-weight:bold;
+	padding-bottom:5px;
+	padding-left:0px;
+	padding-top:5px;
+	background-color: #254D7E;
+	background-repeat: no-repeat;
+}
+.menu1{
+	color:#FFFFFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:bold;
+	background-color: #27548B;
+}
+
+.menuover1{
+	color:#ffffff;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size: 10px;
+	font-weight:bold;
+	background-color: #336AAE;
+}
+
+.menu1:link{
+	color:#FFFFFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:bold;
+	}
+.menu1:active{
+	color:#FFFFFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:bold;
+	}
+.menu1:visited{
+	color:#FFFFFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:bold;
+	
+}
+.menu1:hover{
+	color:#EBEBEB;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:bold;
+	background-color: #336AAE;
+}
+
+.menu{background:#f3f3f3; color:#000000;font-family:Verdana,Arial,Helvetica,sans-serif;font-size: 10px;font-weight:bold;}
+
+.menuover{background:#e2e2e2; color:#ffffff;font-family:
+Verdana,Arial,Helvetica,sans-serif;font-size: 10px;font-weight:bold;}
+
+.errmsg{font-family:Verdana,Arial,Helvetica,sans-serif;font-size: 10px; color:#FF0000; font-weight:bold;}
+input {font-family:Verdana,Arial,Helvetica,sans-serif;font-size: 11px;	border:1px solid #DADADA; height: 20px; background:#ffffff;color:#000000;}
+textarea{font-family:Verdana,Arial,Helvetica,sans-serif;font-size: 11px;	border:1px solid #e2e2e2; background:#ffffff; color:#000000;}
+select{font-family:Verdana,Arial,Helvetica,sans-serif;font-size: 11px;	border:1px solid #e2e2e2; background:#ffffff;color:#000000;}
+.button{font-family:Verdana,Arial,Helvetica,sans-serif;font-size: 12px;	border:1px solid #e2e2e2; height: 18px; background:#e2e2e2;color:#000000;; font-weight:bold;}
+.style1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+a:link {
+	color: #000000;
+}
+
+
+
+a:visited {
+	color: #000000;
+
+}
+a:hover {
+	color: #ff6600;
+
+}
+a:active {
+	color: #ff6600;
+}
+.bluebg{background:#e2e2e2}
+.lines{background:#CCCCCC}
+.greybg{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFFFFF;
+	font-weight:bold;
+	background-color: #3063A1;
+}
+.mainheading{font-family:Verdana,Arial,Helvetica,sans-serif;font-size: 11px; color:#999999;font-weight:bold;}
+.subheading{font-family:Verdana,Arial,Helvetica,sans-serif;font-size: 10px; color:#000000;font-weight:bold;}
+.addnewlink{font-family:Verdana,Arial,Helvetica,sans-serif;font-size: 10px; color:#ff6600;font-weight:bold;}
+.greenbg{background:#005E00;}
+.paging{font-family:Verdana,Arial,Helvetica,sans-serif;font-size: 10px;color:#FF9900;font-weight:bold;}
+.blueBorder{border:1px solid #e2e2e2;padding:10px;}
+.bluehead{background:#ffffff; color:#ffffff; font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 10px;font-weight: bold;padding-left:2px;}
+.lightbluehead{ color:#FF6B24; font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 10px;font-weight: bold;text-decoration: none;}
