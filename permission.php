@@ -66,6 +66,20 @@ $row = mysqli_fetch_object($ret);
             }
         });
     }
+ function toggle(source) {
+        $('#location').click(function(event) {
+            if (this.checked) {
+                // Iterate each checkbox
+                $(':checkbox').each(function() {
+                    this.checked = true;
+                });
+            } else {
+                $(':checkbox').each(function() {
+                    this.checked = false;
+                });
+            }
+        });
+    }
 
     function goglecheck(that) {
         var chk = document.getElementsByClassName(that.id);
